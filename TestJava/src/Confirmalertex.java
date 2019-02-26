@@ -13,8 +13,7 @@ public class Confirmalertex {
 		ChromeDriver d=new ChromeDriver();
         d.get("https://www.toolsqa.com/handling-alerts-using-selenium-webdriver/");
         d.findElement(By.xpath("//button[text()='Confirm Pop up']")).click();
-        Thread.sleep(10000);
-                Alert a=d.switchTo().alert();
+                        Alert a=d.switchTo().alert();
                 Thread.sleep(3000);     
         a.dismiss();      
 	}

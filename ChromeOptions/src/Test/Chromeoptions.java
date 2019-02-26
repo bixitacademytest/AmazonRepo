@@ -8,5 +8,6 @@ public class Chromeoptions {
 		option.addArguments("--start-maximized","--ignore-certificate-errors","--disable-popup-blocking","--incognito","--disable-infobar");
 		System.out.println("Chrome Desired cap");
 		return option;
+		
 	}
 }

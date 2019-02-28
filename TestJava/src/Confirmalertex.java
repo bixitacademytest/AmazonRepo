@@ -16,9 +16,7 @@ public class Confirmalertex {
         Thread.sleep(10000);
                 Alert a=d.switchTo().alert();
                 Thread.sleep(3000);     
-        a.dismiss();
-       
-        
+        a.accept();       
 	}
 
 }
